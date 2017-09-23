@@ -6,6 +6,7 @@ package com.cp;
  * @date 2017/9/22
  */
 public class Application {
+
     public static void main(String[] args) {
         new Generator().generate(Config.create(args));
     }
